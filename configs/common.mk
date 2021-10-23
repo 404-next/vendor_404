@@ -136,7 +136,7 @@ PRODUCT_COPY_FILES += \
 # IORap
 PRODUCT_PROPERTY_OVERRIDES += \
     iorapd.perfetto.enable=true \
-    iorapd.readahead.enable=true \
+    persist.device_config.runtime_native_boot.iorap_readahead_enable=true \
     ro.iorapd.enable=true
 
 # Copy all updater-specific init rc files
