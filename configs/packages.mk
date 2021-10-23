@@ -49,23 +49,23 @@ PRODUCT_PACKAGES += \
     Covers \
     ThemePicker \
     404Clock \
-    AbleMusic \
-    Updater \
-    SoftAPManager
+    AbleMusic
+#    Updater \
+#    SoftAPManager
 
 # Angle
-PRODUCT_PACKAGES += \
-    ANGLE
+#PRODUCT_PACKAGES += \
+#    ANGLE
 
 # SystemUI plugins
 PRODUCT_PACKAGES += \
     QuickAccessWallet \
 
 # Overlays
-PRODUCT_PACKAGES += \
-    GesturalNavigationOverlayLong \
-    GesturalNavigationOverlayMedium \
-    GesturalNavigationOverlayHidden
+#PRODUCT_PACKAGES += \
+#    GesturalNavigationOverlayLong \
+#    GesturalNavigationOverlayMedium \
+#    GesturalNavigationOverlayHidden
 
 # Volume Panel
 -include packages/apps/Plugins/plugins.mk
